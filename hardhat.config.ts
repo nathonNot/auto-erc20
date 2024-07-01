@@ -26,10 +26,10 @@ const config: HardhatUserConfig = {
     },
     target: {
       url: process.env.CHAIN_RPC_URL,
-      chainId: process.env.CHAIN_ID as any,
+      chainId: Number(process.env.CHAIN_ID),
       accounts: [process.env.ACCOUNT_PRIVATE_KEY as any],
       gasPrice: 'auto',
-      gas: process.env.GAS as any || 'auto',
+      gas: Number(process.env.GAS) as any || 'auto',
     },
   },
 };
