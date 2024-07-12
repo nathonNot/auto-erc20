@@ -18,11 +18,11 @@
     },
     {
       "name":"TOKEN_NAME",
-      "type":"string",
+      "type":"string"
     },
     {
       "name":"SYMBOL",
-      "type":"string",
+      "type":"string"
     },
     {
       "name":"MINTER",
@@ -31,7 +31,7 @@
     },
     {
       "name":"INIT_NUM",
-      "type":"number",
+      "type":"number"
     }
   ]
 }
