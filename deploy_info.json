@@ -1,0 +1,37 @@
+{
+  "env":[
+    {
+      "name":"CHAIN_RPC_URL",
+      "type":"string",
+      "type1":"rpc_url",
+      "desc": "target chain rpc url"
+    },
+    {
+      "name":"ACCOUNT_PRIVATE_KEY",
+      "type":"string",
+      "type1":"private_key"
+    },
+    {
+      "name":"GAS",
+      "type":"number",
+      "type1":"gas"
+    },
+    {
+      "name":"TOKEN_NAME",
+      "type":"string",
+    },
+    {
+      "name":"SYMBOL",
+      "type":"string",
+    },
+    {
+      "name":"MINTER",
+      "type":"string",
+      "type1":"address"
+    },
+    {
+      "name":"INIT_NUM",
+      "type":"number",
+    }
+  ]
+}
