@@ -7,6 +7,11 @@
       "desc": "target chain rpc url"
     },
     {
+      "name":"CHAIN_ID",
+      "type":"number",
+      "type1":"chain_id"
+    },
+    {
       "name":"ACCOUNT_PRIVATE_KEY",
       "type":"string",
       "type1":"private_key"
